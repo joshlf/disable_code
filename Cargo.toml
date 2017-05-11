@@ -1,0 +1,10 @@
+[package]
+name = "disable_code"
+version = "0.1.0"
+authors = ["Joshua Liebow-Feeser <hello@joshlf.com>"]
+
+[lib]
+plugin = true
+
+[dependencies]
+regex = "0.2"
