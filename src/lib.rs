@@ -3,6 +3,8 @@
 
 mod filter;
 
+#[macro_use]
+extern crate nom;
 extern crate regex;
 extern crate syntax;
 extern crate syntax_pos;

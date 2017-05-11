@@ -8,3 +8,7 @@ plugin = true
 
 [dependencies]
 regex = "0.2"
+
+[dependencies.nom]
+version = "2.2.1"
+features = ["regexp", "verbose-errors"]
